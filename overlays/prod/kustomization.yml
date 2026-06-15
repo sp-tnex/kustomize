@@ -1,0 +1,9 @@
+resources:
+  - ../../base
+
+patches:
+  - path: cpu-limit.yml
+
+replicas:
+  - name: my-app
+    count: 10
